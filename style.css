@@ -16,9 +16,9 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  /* background: #262626; */
-  background: url("./bg.png"), no-repeat;
-  background-size: cover;
+  background: #262626;
+  /* background: url("./bg.png"), no-repeat;
+  background-size: cover; */
 }
 .container {
   width: 400px;
