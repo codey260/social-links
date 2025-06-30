@@ -6,19 +6,17 @@
   box-sizing: border-box;
 }
 :root {
-  --main-text-color: #e2e8ce;
+  --main-text-color: #fff;
 }
 a {
   text-decoration: none;
 }
 body {
-  font-family: "Poppins";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   height: 100vh;
   display: grid;
   place-items: center;
-  background: #262626;
-  /* background: url("./bg.png"), no-repeat;
-  background-size: cover; */
+  background: #141414;
 }
 .container {
   width: 400px;
@@ -27,7 +25,7 @@ body {
   padding: 20px;
   padding-top: 40px;
   border-radius: 20px;
-  background: rgba(38, 38, 38, 0);
+  background: #1f1f1f;
   box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(20px);
 }
@@ -39,21 +37,32 @@ body {
   padding: 20px;
   width: 100%;
 }
+.container .text h3 {
+  color: #fff;
+  margin: 5px;
+}
+.container .text span {
+  display: block;
+  color: #c5f82a;
+  margin: 10px;
+}
 .container .text p {
   color: var(--main-text-color);
+  margin: 10px;
+  font-size: 14px;
 }
 .container .links a {
   color: var(--main-text-color);
   padding: 10px;
   display: block;
   margin: 20px;
-  background-color: #262626;
-  border-radius: 30px;
+  background-color: #333333;
+  border-radius: 5px;
   transition: 0.3s;
 }
 .container .links a:hover {
-  color: #fff;
-  background-color: #3597c6;
+  color: #000;
+  background-color: #c5f82a;
 }
 @media (min-width: 768px) {
   .container {
