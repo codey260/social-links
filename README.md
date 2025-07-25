@@ -21,6 +21,6 @@ This project was created by **Youssef Shaaban** to provide a simple, visually ap
 
 ## Getting Started
 
-1. Go to the [Demo Link Here.](https://youcefshaaban.github.io/social-links)
+1. Go to the [Demo Link Here.](https://codey260.github.io/social-links)
 
 ---
